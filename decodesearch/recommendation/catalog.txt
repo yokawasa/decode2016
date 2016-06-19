@@ -1,0 +1,117 @@
+CLT-001,今だからもう一度確認したい、クライアントテクノロジーの概要と選択,Client
+CLT-010,クラウドで広げる広がる UWP アプリの世界,Client
+CLT-002,Windows 10 デバイスと UWP 完全解説,Client
+CLT-003,UWP で業務パッケージやエンタープライズ LOB は行けるのか？ ～ UWP アプリによる業務システムの開発と展開 ～,Client
+CLT-012,インサイド UWPアプリ,Client
+CLT-015,音声を活用した UWP アプリの拡張 ～ Cortana、音声合成、音声認識 ～,Client
+CLT-004,Windows 10 におけるアプリの互換性と移行,Client
+CLT-007,HoloLens アプリ開発 ～世界を変えてしまうテクノロジー～,Client
+CLT-006,HoloLens 概要 ～世界をみる新しい方法～,Client
+CLT-009,Windows 10 アプリとシングルサインオン～Microsoft Passport の意義とその実装方法,Client
+DBP-004,Cloud First をリードする Azure SQL Database の仕組みと新機能,Data Platform
+DEV-005,200 時間以上お客様と向き合ってみえた Team Foundation Server による開発業務効率化の実現方法,Development
+DBP-007,SQL Serve 2016 R Services、Microsoft R Server の構成と実行アーキテクチャー,Data Platform
+INF-026,真のクラウドベース EMM　～マイクロソフトのモビリティ戦略はいかにユニークか～,Infrastructure
+INF-024,Windows 10 の展開　～プロビジョニングの真実～,Infrastructure
+INF-023,マイクロソフトの特権管理ソリューションの全貌 ～狙われる特権を守れ！～,Infrastructure
+DEV-003,新しく生まれ変わったデータアクセス テクノロジ　～ Entity Framework Core 1.0 の全貌 ～,Development
+INF-025,企業で使える Windows 10 ～現実的なアプリ&デバイス管理～,Infrastructure
+INF-021,実践！ Windows as a Service との上手な付き合い方 ～新しい OS 更新管理の徹底解説～,Infrastructure
+INF-022,なぜ「今」Windows 10 が必要なのか？ Windows 10 最強セキュリティ機能大解剖 ,Infrastructure
+ARC-001,Updated：５年後のアプリケーションアーキテクチャを考える,Architecture
+INF-013,Azure Stack 徹底解剖,Infrastructure
+INF-019,Nano Server だけでここまでできる！ ～極小サーバーの使い方～,Infrastructure
+ARC-002,認証強度を高めるための”多要素認証”活用 Deep Dive,Architecture
+CHK-003,認証とか認可でもやもやしている方のための公開相談室,Chalk Talk
+CHK-001,All about DevOps ? DevOps 第一人者のガチトークバトル！,Chalk Talk
+DBP-005,SQL Server 2016 Operational Analytics によるデータ活用,Data Platform
+DEV-009,ここまでできる！ Visual Studio 2015 ～ 強化された C/C++ クロスプラットフォーム開発解説 ～,Development
+CHK-002,No Things No Life ~ モノ、IoTの達人集合、何ができるか聞いてみよう！,Chalk Talk
+ARC-003,モダン Web : たった今と、ほんの少し未来のはなし,Architecture
+INF-003,Azureでのセキュアネットワーキング,Infrastructure
+DOO-001,「Azure を利用したエンタープライズ Java アプリケーション開発の今とこれから !!」 ,DevOps & OSS
+PRD-004,ここまで出来る ! Azure AD と Office 365 連携開発の先進手法,Productivity
+PRD-005,Skype Developer Platform によるアプリケーション開発の最新情報,Productivity
+PRD-001,Office 365 Enterprise E5 による高度な音声プラットフォームの展開,Productivity
+PRD-003,わかる！ExpressRoute for Office 365 ,Productivity
+INF-002,Azure IaaS 最新動向,Infrastructure
+DEV-002,.NET Core / ASP.NET Core が実現するクロスプラットフォーム .NET の今と未来,Development
+PRD-008,クラウド ネイティブERP - Dynamics AX のアーキテクチャ・環境構築から開発・運用まで,Productivity
+PRD-009,クラウドの ERP による業務システム開発 - OData エンドポイントから Power BI 連携,Productivity
+DBP-014,機械学習の実践ノウハウ提供します！～AIで広がる夢を現実にする方法～,Data Platform
+DBP-013,Cortana Intelligenceに切り込む！～未来予測の仕組みと実装～,Data Platform
+INF-006,サーバー1台、1ファイルからはじめる、Azureを活用したバックアップ・DR　～高コストDR環境の乗り換えにもどうぞ～,Infrastructure
+CHK-004,プログラミング言語は何処へ向かうのか,Chalk Talk
+DEV-016,止まらないサービスを! ～マイクロサービス プラットフォーム「Azure Service Fabric」～,Development
+DEV-001,オープンソースエディタ Visual Studio Code の極意,Development
+INF-020,メーカーがおしえてくれない正しいクラウドについて,Infrastructure
+INF-014,Azure Pack, Azure Stack で作る ハイパフォーマンス DB as a Service,Infrastructure
+INF-008,Azure Active Directory 最新動向 ～今後の Active Directory はどうあるべきか～,Infrastructure
+INF-017,Windows Server 2016 のSoftware Defined Storage のしくみと活用,Infrastructure
+CHK-006,本音で語る、MicrosoftのOSSはどうなのよ?,Chalk Talk
+DEV-008,Developing on the Edge. ～ Web プラットフォームと Cordova ～,Development
+SPL-001,マイクロソフト最新テクノロジーと魅力あふれる未来像,Special
+ARC-004,Big Data / 機械学習がソフトウェア開発手法を変える! ～静的アルゴリズムから動的アルゴリズム生成への道～,Architecture
+SPL-002,クラウド心配性な上司を説得するコツを伝授します～ 本当に信頼できるクラウドの構築/運用とは? マイクロソフト クラウド成,Special
+CHK-005,All about 機械学習! ～ 機械学習は魔法の杖か、単なるBig Dataのはけ口か～,Chalk Talk
+SPL-003,黒船襲来！世界DevOps トップ企業 x マイクロソフトによるトークバトル セッション,Special
+SPL-004,Windows 10 開発の舞台裏から学ぶエンジニアの未来,Special
+DOO-005,裏 Inside Azure ~OSS視点で理解する、Azureのテクノロジー&アーキテクチャー～,DevOps & OSS
+DBP-016,NoSQL in Azure ～ドキュメント指向データベース Azure DocumentDB 徹底解説～,Data Platform
+DOO-006,Mobile DevOps -?モダンなモバイルアプリ開発から障害対応まで,DevOps & OSS
+INF-005,ハイブリッドクラウド環境でのネットワークとセキュリティ ～ Azure とのプライベート接続 ～,Infrastructure
+INF-015,そこのコンテナ、うまく積めてるね！ ～Windows アプリケーション コンテナの展開と運用～,Infrastructure
+INF-012,デスクトップ仮想化の実践 - powered by Windows Server 2016 & Azure -,Infrastructure
+ARC-005,あなたもハマるかもしれない "アーキテクトがクラウド導入の現場で見た課題の傾向と対策～～ment guidess,Architecture
+DOO-010,Microsoft Loves Red Hat ～Azure と OpenShift が生み出すフルオープンなPaaS～,DevOps & OSS
+PRD-007,Dynamics CRM Online 2016 新Web APIで開発するモバイルアプリ,Productivity
+PRD-006,機械学習で顧客対応はこう変わる！Azure MLとDynamicsで造る次世代CRM,Productivity
+INF-010,そのログ、ただ集めているだけではありませんか？ ～ IT 運用の世界にもビッグデータの活用を！ ～,Infrastructure
+DOO-011,クラウド時代のセキュアな企業システム構築 ～ OSS＋Azureで実現する安心な企業システム,DevOps & OSS
+DOO-008,マイクロソフトが実践したScrum導入７年間の旅、そしてDevOpsへの進化,DevOps & OSS
+INF-004,App Service を利用したウェブサイト構築における運用管理とセキュリティ対策,Infrastructure
+INF-001,詳説 Azure IaaS ～私はインフラが好きだ～,Infrastructure
+DBP-011,Apache Spark for Azure HDInsight ～新世代のビッグデータ処理基盤～,Data Platform
+DBP-017,Power BI Service のアーキテクチャとエンタープライズ利用におけるデザイン パターン,Data Platform
+DBP-006,SQL Server 2016 Analysis Services のアーキテクチャとその活用方法,Data Platform
+DBP-009,クラウドで実現するスケーラブルなデータウェアハウス Azure SQL Data Warehouse 解説,Data Platform
+INF-018,OS の中で SDN 抗争勃発!?　～主役を争う VXLAN vs NVGRE～,Infrastructure
+INF-007,ハイブリッドな Active Directory の設計～Windows Server 2016 版,Infrastructure
+INF-027,セキュリティ マニアックス -サイバー攻撃の手口と防御手法- ～敵を知り、己を知れば百戦危うからず～,Infrastructure
+INF-011,驚愕！Azure リソースマネージャを利用した Infrastructure as Code 実践,Infrastructure
+CHK-008,Windows Insider Meetup in Japan 2 ”de:code 2016特別編”,Chalk Talk
+INF-009,PowerShell を 使いこなして、自動化対応 エンジニア になろう！！,Infrastructure
+DEV-010,エンプラ系 業務 Web アプリ開発に効く！ 実践的 SPA 型モダン Web アプリ開発の選択手法,Development
+DOO-014,日本でも出来る！MS技術をフル活用したDevOps の具体的実現手法！,DevOps & OSS
+DBP-003,Azure IoT Suite を活用したカスタム ソリューションの作成方法,Data Platform
+CHK-007,Windows 10のブラウザー、Edge のこれからについて,Chalk Talk
+CLT-013,Windows 10 ×　Gaming ×　Feature ×　Development,Client
+DBP-015,Pepper × Microsoft Azure 協業の舞台裏 ~未来の商品棚から広がる世界~,Data Platform
+DBP-002,データ分析のさらに一歩先へ Cortana Intelligence Suite,Data Platform
+DEV-015,実践！App Service 徹底活用 ～ 一貫したビジネスロジックの実現,Development
+DEV-014,アプリ 環境は Azure にお任せ！～ Azure App Service 基本の "ます。特,Development
+CLT-016,拝啓 『変わらない開発現場』を嘆く皆様へ　～エンプラ系 SI 開発現場の「今」を変えていくために～,Client
+DEV-013,まだまだ進化が止まらない！ 開発者のための Microsoft Azure 最新機能,Development
+DEV-018,Azure Search Deep Dive ～ 検索エクスペリエンス向上のためのノウハウ徹底解説 ～,Development
+DEV-019,Programmable Video ～ Azure Media Services でのビデオサービス開発 ～,Development
+DEV-011,TypeScript ～ Any browser. Any host. Any OS. Open Source ～,Development
+DBP-018,有能な AI アシスタントを手に入れる！Microsoft Cognitive Services 入門,Data Platform
+CLT-008,みんなで作る Windows 10！ ～ Windows Insider からのフィードバック・データの活用方法 ～,Client
+DOO-012,FinTechだけじゃモッタイ無い！ブロックチェーン とクラウドが作る未来,DevOps & OSS
+ARC-006,サイバーセキュリティ、IT Pro, 開発、経営　それぞれの視点,Architecture
+DOO-015,Azure / Windows Server 2016 から学ぶWindows 系インフラエンジニアのためのDevOps,DevOps & OSS
+DEV-012,.NET言語（C#）と .NET コンパライプラットフォーム（Roslyn）最新情報,Development
+DBP-019,りんなを徹底解剖。”Rinna Conversation Services” を支える自然言語処理アルゴリズム,Data Platform
+CHK-010,Azure SQL Database: Current and Futures,Chalk Talk
+ARC-008,Azure IoT ソリューションアーキテクチャ,Architecture
+PRD-010,一挙紹介 ! Office 365 でおさえておくべき最新機能,Productivity
+DBP-010,Using Azure Data Services for Modern Data Applications,Data Platform
+DOO-013,Docker 最新動向と Azure Container Service 入門,DevOps & OSS
+ARC-009,RDB 技術者のための NoSQL ガイド,Architecture
+DEV-020,Bot Framework & Cognitive Services ～自動応答ソリューション開発に挑戦～,Development
+DEV-006,The Future of Visual Studio,Development
+DEV-004,ここを使うだけで大幅に業務効率改善！Visual Studio 2015 Update 2 の最新便利機能をピックアップ,Development
+DBP-020,いざ無制限のデータの彼方へ! ～ Azure Data Lake 開発の知識とベストプラクティス ～,Data Platform
+DEV-022,これから始める Xamarin ? 環境構築から iOS/Android/UWP アプリのビルドまで ?,Development
+DEV-007,Building Cloud Connected Xamarin Apps,Development
+INF-028,そのエラーや お困りごと、ツールを使えば解決できるかも！～Sysinternals や OS 標準ツールの徹底活用術 ～,Infrastructure

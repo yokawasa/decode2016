@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../favicon.ico">
+
+    <title>de:code 2016 Session Search</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="dist/css/typeahead.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="design.css" rel="stylesheet">
+  </head>
+
+  <body onLoad="execSearch();">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">de:code 2016 Session Search</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+
+		<div class="row">
+			<div class="input-group" style="padding:20px;"> 
+				  <input type="text" class="form-control" placeholder="Search for..." id="q"  onkeydown = "if (event.keyCode == 13) execSearch();" >
+				  <span class="input-group-btn">
+					<button class="btn btn-default" type="button" onclick="execSearch();">Go!</button>
+				  </span>
+                  
+			</div><!-- /input-group -->
+		</div>
+		<div class="row">
+			<div id="mediaContainer"></div>
+		</div>
+    </div><!-- /.container -->
+
+	<!-- Modal -->
+	<div id="myModal" class="modal fade" role="dialog">
+	  <div class="modal-dialog">
+
+		<!-- Modal content-->
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+			<h4 class="modal-title" id="modal-title"></h4>
+             <p class="modal-description" id="modal-description"></p>
+             <p class="modal-track" id="modal-track"></p>
+		  </div>
+          <div class="modal-body">
+            <H4>このセッションを選択した人は他にも次のセッションに興味を持っています</H4>
+            <div id="recDiv">
+            </div>
+          </div>
+		  <div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		  </div>
+		</div>
+
+	  </div>
+	</div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <!--Tiwtter Typeahead lib -->
+    <script src="dist/js/typeahead.bundle.min.js"></script>
+	<script src="search.js"></script>
+  </body>
+</html>
