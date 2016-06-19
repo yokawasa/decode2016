@@ -18,21 +18,22 @@
 
     $url = $AZURESEARCH_URL_BASE . '?' . implode('&', $p);
 
-    $ch = curl_init();
-    curl_setopt($ch, CURLOPT_URL,$url);
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-    curl_setopt($ch, CURLOPT_TIMEOUT, 10);
-    curl_setopt($ch, CURLOPT_HTTPHEADER, array(
-        'api-key: '. $azureSearchQueryApiKey,
-        'Accept: application/json',
-    ));
+    $opts = array(
+        'http'=>array(
+            'method'=>"GET",
+            'header'=>"Accept: application/json\r\n" .
+                "api-key: $azureSearchQueryApiKey\r\n",
+            'timeout' =>10
+        )
+    );
 
-    $data = curl_exec($ch);
+    $context = stream_context_create($opts);
+    $data = file_get_contents($url, false, $context);
 
-    if (curl_errno($ch)) {
-        print "Error: " . curl_error($ch);
-    } 
-    else 
+    if ($data  === false) {
+        print "Error!";
+    }
+    else
     {
         //print var_dump($data);
         header('Content-Length: '.strlen($data));
@@ -40,5 +41,4 @@
         header('Access-Control-Allow-Origin: *');
         print $data;
     }
-    curl_close($ch);
 ?>
