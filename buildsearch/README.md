@@ -102,7 +102,7 @@ Then, run upload_captions.py script to upload all closed captions data for each 
     cd buildsearch/scripts
     ./upload_cations.py ../data/build2016.csv ../data build2016captions
 
-[note] if you want to generate closed captions from video Contents by youself instead of using closed-caption-data.zip, go to an [optional procedure](#generate-closed-captions-from-video-contents-optional-procedure).
+[note] if you want to generate closed captions from video Contents by youself instead of using closed-caption-data.zip, go to [optional procedure](#generate-closed-captions-optional-procedure).
 
 ### 6. Download video contents (Optional)
 
@@ -150,7 +150,7 @@ Then, access your webapp index.html and see if the following page, which is basi
 ![build2016 search top screenshot](https://github.com/yokawasa/decode2016/raw/master/buildsearch/img/screen-build2016sessions-search-top.png)
 
 
-## Generate Closed Captions from Video Contents (Optional Procedure) 
+## Generate Closed Captions (Optional Procedure) 
 
 This is a procedure only for those who want to generate closed captions from video contents by themselves. If you use closed-caption-data.zip which is included in this repository instead of generating by yourself, skip this procedure.
 
