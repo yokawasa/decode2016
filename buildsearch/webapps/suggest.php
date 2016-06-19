@@ -1,10 +1,9 @@
 <?php
-
-    $apikey='5B9F00D85D354135D01AA90BC8E8D64B';
-    $searchAccount="yoichikademo0";
+    $azureSearchAccount="<Azure Search Service Name>";
+    $azureSearchQueryApiKey = "<Azure Search API Query Key>";
     $indexNameSessions="build2016sessions";
 
-    $AZURESEARCH_URL_BASE= 'https://' . $searchAccount .'.search.windows.net/indexes/'.$indexNameSessions.'/docs/suggest';
+    $AZURESEARCH_URL_BASE= 'https://' . $azureSearchAccount .'.search.windows.net/indexes/'.$indexNameSessions.'/docs/suggest';
 
     $req=$_REQUEST;
     $params = array();
@@ -25,7 +24,7 @@
         'http'=>array(
             'method'=>"GET",
             'header'=>"Accept: application/json\r\n" .
-                "api-key: $apikey\r\n",
+                "api-key: $azureSearchQueryApiKey\r\n",
             'timeout' =>10
         )
     );

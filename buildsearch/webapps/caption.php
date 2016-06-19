@@ -1,7 +1,7 @@
 <?php
-
-    $apikey='5B9F00D85D354135D01AA90BC8E8D64B';
-    $AZURESEARCH_URL_BASE= 'https://yoichikademo0.search.windows.net/indexes/build2016sessions/docs';
+    $azureSearchAccount="<Azure Search Service Name>";
+    $azureSearchQueryApiKey = "<Azure Search API Query Key>";
+    $AZURESEARCH_URL_BASE= 'https://'.$azureSearchAccount.'.search.windows.net/indexes/build2016sessions/docs';
 
     $req=$_REQUEST;
     $params = array();
@@ -24,7 +24,7 @@
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
     curl_setopt($ch, CURLOPT_TIMEOUT, 10);
     curl_setopt($ch, CURLOPT_HTTPHEADER, array(
-        'api-key: '. $apikey,
+        'api-key: '. $azureSearchQueryApiKey,
         'Accept: application/json',
     ));
 

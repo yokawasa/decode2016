@@ -1,5 +1,5 @@
-var azureSearchQueryApiKey = "5B9F00D85D354135D01AA90BC8E8D64B";
-var searchAccount="yoichikademo0";
+var azureSearchAccount="<Azure Search Service Name>";
+var azureSearchQueryApiKey = "<Azure Search API Query Key>";
 var indexNameSessions="build2016sessions";
 var inSearch = false;
 
@@ -38,7 +38,7 @@ $('.input-group .form-control').typeahead(null, {
 function execSearch()
 {
 	var q = encodeURIComponent($("#q").val());
-	var searchAPI = "https://" + searchAccount + ".search.windows.net/indexes/"+ indexNameSessions +"/docs?$top=255&$select=id,title,thumbnail&api-version=2015-02-28&search=" + q;
+	var searchAPI = "https://" + azureSearchAccount + ".search.windows.net/indexes/"+ indexNameSessions +"/docs?$top=255&$select=id,title,thumbnail&api-version=2015-02-28&search=" + q;
 	inSearch= true;
     $.ajax({
         url: searchAPI,

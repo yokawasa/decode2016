@@ -1,11 +1,11 @@
-var azureSearchQueryApiKey = "5B9F00D85D354135D01AA90BC8E8D64B";
-var searchAccount="yoichikademo0";
+var azureSearchAccount="<Azure Search Service Name>";
+var azureSearchQueryApiKey = "<Azure Search API Query Key>";
 var indexNameCaptions="build2016captions";
 var inSearch = false;
 
 function init(sessionid)
 {
-	var searchAPI = "https://" + searchAccount + ".search.windows.net/indexes/" + indexNameCaptions + "/docs?$top=1000&$select=id,sessionid,beginsec,begin,end,caption&$count=true&$orderby=beginsec&api-version=2015-02-28&$filter=sessionid%20eq%20%27" + sessionid + "%27";
+	var searchAPI = "https://" + azureSearchAccount + ".search.windows.net/indexes/" + indexNameCaptions + "/docs?$top=1000&$select=id,sessionid,beginsec,begin,end,caption&$count=true&$orderby=beginsec&api-version=2015-02-28&$filter=sessionid%20eq%20%27" + sessionid + "%27";
 	inSearch= true;
 
     $.ajax({
@@ -40,7 +40,7 @@ function init(sessionid)
 function execSearch(sessionid)
 {
 	var q = encodeURIComponent($("#q").val());
-	var searchAPI = "https://"+ searchAccount +".search.windows.net/indexes/" + indexNameCaptions + "/docs?$top=1000&$select=id,sessionid,beginsec,begin,end,caption&$count=true&$orderby=beginsec&highlight=caption&api-version=2015-02-28&$filter=sessionid%20eq%20%27" + sessionid + "%27&search=" + q;
+	var searchAPI = "https://"+ azureSearchAccount +".search.windows.net/indexes/" + indexNameCaptions + "/docs?$top=1000&$select=id,sessionid,beginsec,begin,end,caption&$count=true&$orderby=beginsec&highlight=caption&api-version=2015-02-28&$filter=sessionid%20eq%20%27" + sessionid + "%27&search=" + q;
 	inSearch= true;
 
     $.ajax({
