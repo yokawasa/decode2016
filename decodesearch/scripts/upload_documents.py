@@ -83,7 +83,7 @@ if __name__ == '__main__':
         next(reader)   # skip header
         # title,speakers,description,link,video,thumbnail
         for row in reader:
-            sessionid=row[22]
+            sessionid=row[7]
             title=row[0].decode('utf8')
             speakername=row[5].decode('utf8')
             speakerid=row[6]
