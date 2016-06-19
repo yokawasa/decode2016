@@ -1,10 +1,10 @@
 #!/bin/sh
 
-VIDEO_DIR="/data1/worksdata/build2016/video"
-DOWNLOAD_DIR="/data1/worksdata/build2016/captions/new"
-LOGFILE="/data1/worksdata/build2016/captions/new/runlog.txt"
-AMI_DIR="/home/yoichika/dev/github/azure-media-indexer-java.test"
-LISTFILE="/home/yoichika/dev/tests/azure/search/decode/build2016/work/nottmlmp4list.txt"
+VIDEO_DIR="/path-to-webapps-base/video"
+DOWNLOAD_DIR="/path-to-webapps-base/captions"
+LOGFILE="runlog.txt"
+AMI_DIR="/path-to-azure-media-indexer-java"
+LISTFILE="videoslist.txt"
 
 cd $AMI_DIR
 {
