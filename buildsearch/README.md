@@ -102,7 +102,7 @@ Then, run upload_captions.py script to upload all closed captions data for each 
     cd buildsearch/scripts
     ./upload_cations.py ../data/build2016.csv ../data build2016captions
 
-[note] if you want to generate closed captions from video Contents by youself instead of using closed-caption-data.zip, go to an [optional procedure](#).
+[note] if you want to generate closed captions from video Contents by youself instead of using closed-caption-data.zip, go to an [optional procedure](#generate-closed-captions-from-video-contents-optional-procedure).
 
 ### 6. Download video contents (Optional)
 
@@ -137,21 +137,13 @@ Put your azure search service name and API Query key info in the following scrip
     var azureSearchAccount="<Azure Search Service Name>";
     var azureSearchQueryApiKey="<Azure Search API Query Key>";
 
-### 2. Move all webapps, videos and captions files to appropriate directories
+### 2. Deploy all webapps, videos and captions files to appropriate directories
 
-Suppose you want to deploy webapps files to /path-to-webapps-base/buildsearch, move all videos and captions files to the following dir respectively:
+Suppose you want to deploy webapps files to /path-to-webapps-base/buildsearch, deploy all videos and captions files to the following dir respectively:
 
-<table>
-  <tr>
-    <td>Webapp files </td><td>/path-to-webapps-base/buildsearch (ex. /var/www/html/buildsearch) <br>[notice] you can name any for webapp dir. It doesn't need to be buildsearch</td>
-  </tr>
-  <tr>
-    <td>Videos files</td><td>/path-to-webapps-base/video (ex. /var/www/html/video)</td>
-  </tr>
-  <tr>
-    <td>Closed Captions files</td><td>/path-to-webapps-base/captions (ex. /var/www/html/captions)</td>
-  </tr>
-</table>
+ * **Webapp files**: /path-to-webapps-base/buildsearch (ex. /var/www/html/buildsearch) [notice] you can name any for webapp dir. It doesn't need to be buildsearch
+ * **Videos files**: /path-to-webapps-base/video (ex. /var/www/html/video)
+ * **Closed Captions files**: /path-to-webapps-base/captions (ex. /var/www/html/captions)
 
 Then, access your webapp index.html and see if the following page, which is basically the same as [the demo site](https://aka.ms/build2016captions), is displayed.
 
