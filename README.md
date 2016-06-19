@@ -1,4 +1,4 @@
-# de:code2016 DEV-018 Azure Search Deep Dive
+# de:code2016 Azure Search Deep Dive (DEV-018)
 
 This repository contains source codes used for Azure Search demonstration during de:code 2016 DEV-018 session.
 
