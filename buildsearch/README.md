@@ -156,7 +156,7 @@ This is a procedure only for those who want to generate closed captions from vid
 
 ### 1. Get azure_media_indexer_java ready
 
-[azure_media_indexer_java](https://github.com/yokawasa/azure-media-indexer-java) is leveraged for closed cation generations, thus get azure_media_indexer_java ready by following an instruction [here](https://github.com/yokawasa/azure-media-indexer-java)
+[azure_media_indexer_java](https://github.com/yokawasa/azure-media-indexer-java) is leveraged for closed cation generations, thus get azure_media_indexer_java ready by following [its instruction](https://github.com/yokawasa/azure-media-indexer-java)
 
 ### 3. Configure a script for closed caption generation and run
 
