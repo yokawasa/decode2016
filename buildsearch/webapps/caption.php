@@ -19,20 +19,23 @@
     $vttfile ='';
     
     $url = $AZURESEARCH_URL_BASE . '?api-version=2015-02-28&$filter=' . urlencode(sprintf("id eq '%s'",$sessionid));
-    $ch = curl_init();
-    curl_setopt($ch, CURLOPT_URL,$url);
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-    curl_setopt($ch, CURLOPT_TIMEOUT, 10);
-    curl_setopt($ch, CURLOPT_HTTPHEADER, array(
-        'api-key: '. $azureSearchQueryApiKey,
-        'Accept: application/json',
-    ));
 
-    $data = curl_exec($ch);
-    if (curl_errno($ch)) {
-        print "Error: " . curl_error($ch);
-    } 
-    else 
+    $opts = array(
+        'http'=>array(
+            'method'=>"GET",
+            'header'=>"Accept: application/json\r\n" .
+                "api-key: $azureSearchQueryApiKey\r\n",
+            'timeout' =>10
+        )
+    );
+
+    $context = stream_context_create($opts);
+    $data = file_get_contents($url, false, $context);
+
+    if ($data  === false) {
+        print "Error!";
+    }
+    else
     {
         $res_arr = json_decode($data,true);
         $docs = $res_arr['value'];
@@ -44,9 +47,8 @@
             $vttfile = sprintf("../captions/%s.vtt",$s);
         }
     }
-    curl_close($ch);
-
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
